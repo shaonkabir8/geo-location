@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Define base font-size to calculate rem unit */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    width: 114rem;
+    margin: 5rem auto;
+    min-height: 100vh;
+    background-color: #111a28;
+    color: #fff;
+}
