@@ -64,3 +64,16 @@ body {
     color: var(--color-primary);
     margin-left: .5rem;
 }
+
+
+
+
+
+/* info-warning */
+
+.info__warning {
+    color: #d07606;
+    margin-bottom: 1rem;
+    box-shadow: 0 .5rem 1rem var(--color-bg);
+    text-align: center;
+}
