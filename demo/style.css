@@ -7,6 +7,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Define custom properties */
+:root {
+    --color-primary: #00cf5d;
+    --color-bg: #111a28; 
+}
+
 /* Define base font-size to calculate rem unit */
 html {
     font-size: 62.5%;
@@ -16,9 +23,44 @@ body {
     font-family: 'Baloo Thambi 2', cursive;
     font-size: 1.6rem;
     line-height: 1.7;
-    width: 114rem;
+    background-color: var(--color-bg);
+    color: #fff;
+}
+
+
+.info {
+    max-width: 114rem;
     margin: 5rem auto;
     min-height: 100vh;
-    background-color: #111a28;
-    color: #fff;
+    text-align: center;
+}
+
+.info__title {
+    font-size: 3.5rem;
+    color: var(--color-primary);
+    margin-bottom: 5rem;
+}
+
+.info__heading {
+    font-size: 2.5rem;
+    display: inline-flex;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+    border-bottom: 1px solid;
+}
+
+.info__location {
+    font-size: 1.8rem;
+    display: flex;
+    max-width: 35rem;
+    flex-direction: column;
+    text-align: left;
+    padding: 3rem;
+    background-color: #15253f;
+    box-shadow: 0 1rem 1rem rgba(16, 38, 59, 0.651);
+}   
+.info__location--latitude,
+.info__location--longitude {
+    color: var(--color-primary);
+    margin-left: .5rem;
 }
